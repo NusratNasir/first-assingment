@@ -13,7 +13,7 @@ h2{
     font-size: 40px;
 }
 .banner-area{
-    background-image: url(images/design01.png);
+    background-image: url(images/Fdesign.png);
     background-repeat: no-repeat;
     color: white;
     background-size: 100%;
@@ -38,12 +38,13 @@ h2{
 .flexible-container{
     display: flex;
     padding-right: 500px;
+    padding-top: 30px;
 }
 .amount-tk{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 700;
     opacity: 0.6;
-    width: 80%;
+    width: 70%;
     padding: 30px;
     margin-left: 5%;
     margin-right: 5%;
@@ -75,6 +76,9 @@ h2{
 #plan-1{
     background-color: #E8FFC6;
 }
+.icon{
+    width: 20%;
+}
 #plan-2{
     background-color: #FFCDF7;
 }
@@ -96,4 +100,21 @@ h2{
 .my-update{
     text-align: center;
     padding: 20px 250px;
+    
+}
+#form-input{
+    background-color: rgba(232, 226, 226, 0.754);
+    padding: 50px;
+}
+footer{
+    padding: 50px;
+    background-color: rgb(39, 37, 37);
+    color: white;
+    text-align: center;
+}
+#foot-font{
+    font-family: 'Lobster', cursive;
+    font-style: italic;
+    font-size: 30px;
+    color: crimson;
 }
